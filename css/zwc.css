@@ -1,0 +1,199 @@
+/*5s施工管控体系*/
+.zwc_sys{
+    height: 612px;
+    text-align:center;
+}
+.zwc_sys h3{
+    padding-top:41px;
+    font:bold 28px/72px "microsoft yahei";
+    color:#cd2636;
+    height: 72px;
+}
+.zwc_sys p{
+    font:bold 18px "microsoft yahei";
+    text-indent: 2em;
+    width:1000px;
+    margin:0 auto;
+}
+.zwc_sys ul{
+    margin:62px 53px 0px 53px;
+}
+.zwc_sys li{
+    float:left;
+    position:relative;
+    width:154px;
+    height: 344px;
+    margin:0 14px;
+    /*background:url(../images/humane_1.png);*/
+}
+.zwc_sys li img{
+    display:none;
+}
+.zwc_sys span{
+    width:150px;
+    color:#fff;
+    font:16px "microsoft yahei";
+    position:absolute;
+    top:140px;
+    left:2px;
+    display:none;
+}
+.zwc_sys a{
+    position:absolute;
+    font:bold 32px "Arial";
+    bottom:30px;
+    left:60px;
+    color:#fff;
+}
+/*知名品牌，环保安全*/
+.zwc_brand{
+    height: 640px;
+    text-align: center;
+}
+.zwc_brand h3{
+    font:bold 28px "microsoft yahei";
+    color:#cd2636;
+}
+.zwc_brand p{
+    font:bold 14px "microsoft yaihei";
+    color:#363636;
+}
+.zwc_brand ul{
+    margin:35px 40px 0px 40px;
+}
+.zwc_brand li{
+    float:left;
+    width:200px;
+    height: 200px;
+    margin:10px 40px;
+    position:relative;
+    overflow:hidden;
+}
+.zwc_brand li p{
+    position:absolute;
+    top:200px;
+    left:0;
+    height: 150px;
+    color:#fff;
+    font-size:16px;
+    font-weight: 400;
+    width:160px;
+    padding:50px 20px 0px 20px;
+    background:url(../zwcimages/y3.png) no-repeat;
+}
+.zwc_brand span{
+   display:block;
+    width:250px;
+    margin-left:800px;
+    height: 12px;
+    font:700 12px "microsoft yahei";
+    color:#000;
+    text-align:left;
+}
+/*获取装修报价*/
+.zwc_bg{
+    width:100%;
+    height: 100%;
+    background: url(../zwcimages/zhec.png);
+    position:fixed;
+    display:none;
+    top:0;
+    left:0;
+    z-index: 2000;
+    margin-bottom: 10px;
+}
+.zwc_price{
+    width:980px;
+    height: 460px;
+    background:url(../zwcimages/zhec_bj.gif) no-repeat;
+    position:absolute;
+    top:100px;
+    left:180px;
+}
+.zwc_price ul{
+    margin:120px 0 0 165px;
+}
+.zwc_price .zwc_list1 select{
+    width:149px;
+    height: 36px;
+    font-size:14px;
+    border-bottom:2px solid #ccc;
+    border-right:2px solid #ccc;
+    border-color:#ccc;
+}
+.zwc_price .zwc_list2 input{
+    padding-left:8px;
+    margin-top:15px;
+    width: 291px;
+    height:36px;
+    border:1px solid #ccc;
+    color:#888;
+    font:14px "microsoft yahei";
+}
+.zwc_price .zwc_list3 select{
+    width:90px;
+    height: 36px;
+    border-bottom:2px solid #ccc;
+    border-right:2px solid #ccc;
+    font-size:14px;
+    margin:15px 12px 5px 0px;
+}
+.zwc_price .zwc_list4 select{
+    width:145px;
+    height: 36px;
+    border-bottom:2px solid #ccc;
+    border-right:2px solid #ccc;
+    font-size:14px;
+    margin:0px 7px 20px 0px;
+}
+.zwc_price .zwc_list5 input{
+    padding-left:8px;
+    width: 291px;
+    height:36px;
+    border:1px solid #ccc;
+    color:#888;
+    font:14px "microsoft yahei";
+}
+.zwc_price .zwc_btn{
+    width:120px;
+    height: 120px;
+    border-radius:50%;
+    position:absolute;
+    top:165px;
+    left:494px;
+    cursor:pointer;
+}
+.zwc_price .zwc_cal{
+    position:absolute;
+    right:200px;
+    top:160px;
+}
+.zwc_price .zwc_cal p{
+    font-size:14px;
+    color:#929292;
+    height: 30px;
+    line-height: 30px;
+}
+.zwc_price .zwc_close{
+    position:absolute;
+    font-size: 30px;
+    color:#ff0101;
+    top:5px;
+    right:10px;
+    cursor:pointer;
+}
+.zwc_price .zwc_wrong1,.zwc_price .zwc_wrong2{
+    color:#da2337;
+    font:bold 24px "microsoft yaihei";
+    position:absolute;
+}
+.zwc_price .zwc_wrong1{
+    left:475px;
+    top:178px;
+    display:none;
+}
+.zwc_price .zwc_wrong2{
+    left:475px;
+    top:330px;
+    display:none;
+}

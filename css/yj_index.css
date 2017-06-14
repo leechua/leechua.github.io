@@ -1,0 +1,141 @@
+/*顶部通栏*/
+
+/*底部*/
+.footer{
+    width: 100%;
+    height: 484px;
+    background: #666666;
+    position: fixed;
+    left:0px;
+    bottom:-420px;
+    z-index: 2200;
+}
+.footer .w #img{
+    width: 1150px;
+    height: 63px;
+    float:left;
+}
+.footer .arrow_up{
+    width: 100px;
+    height: 64px;
+    position: relative;
+    left:1144px ;
+    top:0px;
+}
+.footer .arrow_up #img_1{
+    width: 34px;
+    height: 141px;
+    position: absolute;
+    left:22px;
+    top:-58px;
+    display: block;
+}
+.footer .arrow_up #img_2{
+    width: 34px;
+    height: 141px;
+    position: absolute;
+    left:22px;
+    top:-58px;
+    display: none;
+}
+.yj_f_w_top{
+
+}
+.yj_f_w_bottom{
+    height:400px;
+/*padding-top: 10px;*/
+    background-color: #fff;
+    border-top:20px solid #f00;
+    /*display:hidden;*/
+}
+.footer .f_w_b_left{
+    width: 600px;
+    height:400px;
+    /*background-color: aquamarine;*/
+    float:left;
+}
+.footer .f_w_b_right{
+    width: 586px;
+    height: 400px;
+    /*background-color: #f0f;*/
+    float:right;
+    margin-left: 20px;
+}
+.footer #compu{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float:left;
+}
+.footer .f_w_b_left .compu_txt_1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.f_b_l_t_span span{
+    line-height: 66px;
+    display: block;
+    float: left;
+}
+.f_b_l_content{
+    width: 550px;
+
+}
+.yj_adress{
+    width: 500px;
+    border:1px solid #e5e5e5;
+    margin-bottom: 10px;
+    margin-left: 22px;
+}
+
+.yj_adress span{
+    font-size: 16px;
+    width:80px;
+    height:55px;
+    line-height: 55px;
+    text-align: center;
+}
+.f_b_l_content .yj_adress select,.f_b_l_content .yj_adress input{
+    width: 400px;
+    height: 50px;
+    font-size: 14px;
+    border: 0 none;
+    color:#666;
+}
+.f_w_b_right .f_w_b_r_cont{
+    width: 440px;
+    height: 39px;
+    color:#333;
+    font-size: 14px;
+  padding:6px 110px;
+    /*text-align: center;*/
+}
+.footer .f_w_b_mid{
+    width:100px;
+    height: 140px;
+    background-color: #ff0000;
+    /*margin-left: 20px;*/
+    float:left;
+    /*margin-top: 100px;*/
+    left:620px;
+    top:100px;
+
+    /*text-align: center;*/
+}
+/*中间部分    */
+#yj_hongbao{
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    left:41px;
+    top:-75px;
+}
+/*左部固定侧栏*/
+.sider_left{
+    position: fixed;
+    left:0px;
+    top:200px;
+}
+

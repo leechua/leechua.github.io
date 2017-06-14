@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>自己选择的路，跪着也要走完...</title>
+    <link rel="stylesheet" href="../css/lc_second.css"/>
+    <link rel="stylesheet" href="../css/lc_common.css"/>
+    <link rel="stylesheet" href="../css/lc_saystyle.css"/>
+    <link rel="stylesheet" href="../css/chitchat.css"/>
+    <link rel="stylesheet" href="../css/yj_common.css"/>
+    <link rel="stylesheet" href="../css/yj_index.css"/>
+    <link rel="stylesheet" href="../css/zwc.css"/>
+</head>
+<body>
+<!--聊天器和红包-->
+<!--固定图标-->
+<div class="lc_leftbox">
+   <div id="lc_imgbtn"> <img src="../images/x-fr-tx.gif" alt=""/></div>
+    <div class="lc_hongbao" id="hongbao">
+        <img src="../images/hongbao.png" alt=""/>
+    </div>
+</div>
+
+
+<!--<div class="outer">-->
+<div class="chatbox1" id="chatbox1">
+    <div class="chat">
+        <div class="lc_cancel" style="font-weight: bold">X</div>
+        <div class="top1" id="top1">
+            <span class="">传智公社</span>
+        </div>
+        <div class="content">
+            <select multiple="multiple" id="leftContent">
+
+            </select>
+        </div>
+        <div class="send">
+            <input type="text" id="leftText" class="sText"/>
+            <input type="button" id="leftSendBtn" class="btn" value="发送"/>
+        </div>
+    </div>
+</div>
+<!--</div>-->
+<div class="chatbox2" id="chatbox2">
+    <div class="chat">
+        <div class="lc_cancel">X</div>
+        <div class="top2" id="top2">
+            <span class="">客户</span>
+        </div>
+        <div class="content">
+            <select multiple="multiple" id="rightContent">
+
+            </select>
+        </div>
+        <div class="send">
+            <input type="text" id="rightText" class="sText"/>
+            <input type="button" id="rightSendBtn" class="btn" value="发送"/>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+
+<!--顶部通栏-->
+<div class="header" id="header"></div>
+<!--导航栏-->
+<div class="nav" id="nav">
+    <div class="w clearfix">
+        <h1>
+            <a href="#" id="nav_w_a">泥巴公社
+                <img src="../images/logo.png" alt="" id="nav_w_img"/>
+                <img src="../images/logo1.png" alt="" id="nav_w_img1"/>
+            </a>
+        </h1>
+
+
+        <ul id="nav_ul">
+            <li class="nav-item">
+                <a href="../index.html" id="a_1">首页</a>
+                <ul class="nav_ul_inner" style="z-index: 11">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">首页</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a href="#" id="a_2">新房整装</a>
+                <ul class="nav_ul_inner" style="z-index: 11">
+                    <li><a href="#">新房整装</a></li>
+                    <li><a href="#">新房整装</a></li>
+                    <li><a href="#">新房整装</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a href="zwc.html" id="a_3">老房改造</a>
+                <ul class="nav_ul_inner" style="z-index: 11">
+                    <li><a href="#">老房改造</a></li>
+                    <li><a href="#">老房改造</a></li>
+                    <li><a href="#">老房改造</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a href="zhangNan.html" id="a_4">高清案例</a>
+                <ul class="nav_ul_inner" style="z-index: 11">
+                    <li><a href="#">高清案例</a></li>
+                    <li><a href="#">高清案例</a></li>
+                    <li><a href="#">高清案例</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a href="#" id="a_5">装修报价</a>
+                <ul class="nav_ul_inner" style="z-index: 11">
+                    <li><a href="#">装修报价</a></li>
+                    <li><a href="#">装修报价</a></li>
+                    <li><a href="#">装修报价</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a href="#" id="a_6">VR体验馆</a>
+                <ul class="nav_ul_inner" style="z-index: 11">
+                    <li><a href="#">VR体验馆</a></li>
+                    <li><a href="#">VR体验馆</a></li>
+                    <li><a href="#">VR体验馆</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a href="#" id="a_7">装修课堂</a>
+                <ul class="nav_ul_inner" style="z-index: 11">
+                    <li><a href="#">装修课堂</a></li>
+                    <li><a href="#">装修课堂</a></li>
+                    <li><a href="#">装修课堂</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--中间部分-->
+<div class="main" id="main"></div>
+
+
+<!--旋转木马-->
+<div class="lc_rotate">
+    <div class="lc_wrap  wf" id="lc_wrap">
+        <div class="lc_slide" id="lc_slide">
+            <ul>
+                <li>
+                    <a href="#"><img src="../images/house_1.jpg" alt=""/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="../images/house_2.jpg" alt=""/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="../images/house_3.jpg" alt=""/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="../images/house_4.jpg" alt=""/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="../images/house_5.jpg" alt=""/></a>
+                </li>
+            </ul>
+            <div class="lc_arrow" id="lc_arrow">
+                <a href="javascript:;" class="lc_prev" id="lc_arrLeft"></a>
+                <a href="javascript:;" class="lc_next" id="lc_arrRight"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--旋转木马下面的页面-->
+<div class="lc_free_content wf" id="lc_free">
+    <div class="lc_free_content_left">
+        <img src="../images/free.png"/>
+
+        <div class="lc_free_wenzi">
+            <span>专业量房报价</span>
+
+            <p>算算我家装修多少钱</p>
+        </div>
+    </div>
+    <div class="lc_free_content_middle">
+        <div class="lc_free_content_middle_l">
+            <div class="free_box">
+                <i class="free_box_img">
+
+                </i>
+                <input type="text" placeholder="请输入您的称呼"/>
+            </div>
+            <div class="free_box clearfix">
+                <i class="free_box_img2"></i>
+                <input type="text" placeholder="请输入您的称呼手机号码"/>
+            </div>
+        </div>
+        <div class="lc_free_content_middle_r" id="lc_free_content_middle_r">
+            免费预约
+        </div>
+    </div>
+    <div class="lc_free_content_right">
+        <div class="lc_free_content_r_t">
+            已有<span>2470</span>人申请免费上门量房设计
+        </div>
+        <div class="lc_free_content_r_b">
+            <div id="customer" class="customer">
+                <ul id="customer_1">
+                    <marquee class="scrollarea1" onmouseover="this.stop();" onmouseout="this.start();" loop="-1"
+                             scrollamount="2" scrolldelay="150" direction="up" width="320" height="50">
+                        <li>八期&nbsp;&nbsp; <span>许冠杰&nbsp;已申请</span></li>
+                        <li>一期&nbsp;&nbsp; <span>陈奕迅&nbsp;已申请</span></li>
+                        <li>八期&nbsp;&nbsp; <span>张国荣&nbsp;已申请</span></li>
+                        <li>三期&nbsp;&nbsp; <span>刘德华&nbsp;已申请</span></li>
+                        <li>五期&nbsp;&nbsp; <span>梁朝伟&nbsp;已申请</span></li>
+                        <li>二期&nbsp;&nbsp; <span>郭富城&nbsp;已申请</span></li>
+                        <li>八期&nbsp;&nbsp; <span>梅艳芳&nbsp;已申请</span></li>
+                        <li>三期&nbsp;&nbsp; <span>谭咏麟&nbsp;已申请</span></li>
+                        <li>八期&nbsp;&nbsp; <span>林子祥&nbsp;已申请</span></li>
+                        <li>一期&nbsp;&nbsp; <span>李克勤&nbsp;已申请</span></li>
+                        <li>八期&nbsp;&nbsp; <span>刘德华&nbsp;已申请</span></li>
+                        <li>六期&nbsp;&nbsp; <span>黄秋生&nbsp;已申请</span></li>
+                        <li>十期&nbsp;&nbsp; <span>李嘉诚&nbsp;已申请</span></li>
+                        <li>一期&nbsp;&nbsp; <span>张学友&nbsp;已申请</span></li>
+                        <li>九期&nbsp;&nbsp; <span>陈百强&nbsp;已申请</span></li>
+                        <li>七期&nbsp;&nbsp; <span>郑中基&nbsp;已申请</span></li>
+                        <li>三期&nbsp;&nbsp; <span>曾志伟&nbsp;已申请</span></li>
+                        <li>二期&nbsp;&nbsp; <span>黄家驹&nbsp;已申请</span></li>
+                        <li>五期&nbsp;&nbsp; <span>黄家强&nbsp;已申请</span></li>
+                        <li>七期&nbsp;&nbsp; <span>黄贯中&nbsp;已申请</span></li>
+                        <li>六期&nbsp;&nbsp; <span>叶世荣&nbsp;已申请</span></li>
+                        <li>八期&nbsp;&nbsp; <span>郑少秋&nbsp;已申请</span></li>
+                    </marquee>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--圆形边框旋转-->
+<div class="lc_Brand">
+    <div class="lc_Brand1 wf">
+        <ul class="lc_B_ul" id="lc_B_ul">
+            <li class="lc_B_l">
+                <b class="lc_B_B" id="Second1"></b>
+
+                <p class="lc_B_P">免费<br><img src="../images/bra1.png" alt=""/>
+                    测量、设计
+                </p>
+
+            </li>
+            <li class="lc_B_l">
+                <b class="lc_B_B" id="Second2"></b>
+
+                <p class="lc_B_P">18项<br><img src="../images/bra2.png" alt=""/>
+                    精装全包服务
+                </p>
+
+            </li>
+            <li class="lc_B_l">
+                <b class="lc_B_B" id="Second3"></b>
+
+                <p class="lc_B_P">一线<br><img src="../images/bra3.png" alt=""/>
+                    主材品牌
+                </p>
+
+            </li>
+            <li class="lc_B_l">
+                <b class="lc_B_B" id="Second4"></b>
+
+                <p class="lc_B_P">100%<br><img src="../images/bra4.png" alt=""/>
+                    产业工人
+                </p>
+
+            </li>
+            <li class="lc_B_l">
+                <b class="lc_B_B" id="Second5"></b>
+
+                <p class="lc_B_P">80道<br><img src="../images/bra5.png" alt=""/>
+                    标准工艺
+                </p>
+
+            </li>
+            <li class="lc_B_l">
+                <b class="lc_B_B" id="Second6"></b>
+
+                <p class="lc_B_P">50天<br><img src="../images/bra6.png" alt=""/>
+                    从毛坯到精装
+                </p>
+
+            </li>
+            <li class="lc_B_l">
+                <b class="lc_B_B" id="Second7"></b>
+
+                <p class="lc_B_P">一对一<br><img src="../images/bra7.png" alt=""/>
+                    管家式服务
+                </p>
+
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!--轮播图案例-->
+<!--标题-->
+<div class="lc_LunTitle w">
+    <div class="lc_LunTitle_box">
+        <span>7大标准配置</span>
+
+        <p>经验丰富的设计师，一对一服务，为您提供免费的设计方案，使您家的空间得到充分的利用，实现您生活方式的私属定制<br>
+            空间包括客餐厅、卧室、厨房、卫生间、阳台、水电、综合
+        </p>
+    </div>
+</div>
+<!--轮播图-->
+<div class="lc_lunOutsideBox">
+    <div class="lc_lun_box" id="lc_lun_box">
+        <div class="lc_lun_inner" id="lc_lun_inner">
+            <ul id="lc_imglist" class="lc_imglist">
+                <li><a href="#"><img src="../images/house_1.jpg" alt=""/></a></li>
+                <li><a href="#"><img src="../images/house_2.jpg" alt=""/></a></li>
+                <li><a href="#"><img src="../images/house_3.jpg" alt=""/></a></li>
+                <li><a href="#"><img src="../images/house_4.jpg" alt=""/></a></li>
+                <li><a href="#"><img src="../images/house_5.jpg" alt=""/></a></li>
+                <li><a href="#"><img src="../images/house_6.jpg" alt=""/></a></li>
+                <li><a href="#"><img src="../images/house_7.jpg" alt=""/></a></li>
+                <li><a href="#"><img src="../images/house_1.jpg" alt=""/></a></li>
+            </ul>
+            <div class="lc_Lun_arrow">
+                <div class="lc_Lun_arrow_left"><img src="../images/prev.png"/></div>
+                <div class="lc_Lun_arrow_right"><img src="../images/next.png"/></div>
+            </div>
+            <div class="big">
+                <img src="../images/big1.jpg" alt=""/>
+                <img src="../images/big2.jpg" alt=""/>
+                <!--<img src="../images/big3.jpg" alt=""/>-->
+                <!--<img src="../images/big4.jpg" alt=""/>-->
+                <!--<img src="../images/big5.jpg" alt=""/>-->
+                <!--<img src="../images/big6.jpg" alt=""/>-->
+                <!--<img src="../images/big7.jpg" alt=""/>-->
+            </div>
+        </div>
+        <div class="lc_list" id="lc_list">
+            <i class="lc_current"><img src="../images/1.png" alt=""/></i>
+            <i><img src="../images/2.png" alt=""/></i>
+            <i><img src="../images/3.png" alt=""/></i>
+            <i><img src="../images/4.png" alt=""/></i>
+            <i><img src="../images/5.png" alt=""/></i>
+            <i><img src="../images/6.png" alt=""/></i>
+            <i><img src="../images/7.png" alt=""/></i>
+        </div>
+
+    </div>
+</div>
+<!--设计色彩新生标题-->
+<div class="lc_LunTitle w" style="height: 160px">
+    <div class="lc_LunTitle_box">
+        <span>设计色彩新生</span>
+
+        <p style="font-size:32px ">只有突破才能成就,自己選擇的路,跪著也要走完...</p>
+    </div>
+</div>
+<!--设计色彩新生主体-->
+<div class="lc_sheBox">
+    <div class="wf">
+        <div class="lc_sheLeft">
+            <ul>
+                <li><a href="#"><img src="../images/kang-img.jpg" alt=""/><span><b>湖蓝调</b><p>
+                    喜欢你的安静和与生俱来的气质</p></span></a></li>
+                <li><a href="#"><img src="../images/kang-img1.jpg" alt=""/><span><b>湖蓝调</b><p>喜欢你的安静和与生俱来的气质</p></span></a></a>
+                </li>
+                <li><a href="#"><img src="../images/kang-img2.jpg" alt=""/><span><b>湖蓝调</b><p>喜欢你的安静和与生俱来的气质</p></span></a></a>
+                </li>
+                <li><a href="#"><img src="../images/kang-img3.jpg" alt=""/><span><b>湖蓝调</b><p>喜欢你的安静和与生俱来的气质</p></span></a></a>
+                </li>
+                <li><a href="#"><img src="../images/kang-img4.jpg" alt=""/><span><b>湖蓝调</b><p>喜欢你的安静和与生俱来的气质</p></span></a></a>
+                </li>
+                <li><a href="#"><img src="../images/kangakng-ii.jpg" alt=""/><span><b>湖蓝调</b><p>
+                    喜欢你的安静和与生俱来的气质</p></span></a></a></li>
+            </ul>
+        </div>
+        <div class="lc_sheRight"><img src="../images/kang-right.jpg" alt=""/></div>
+    </div>
+</div>
+<!--专业的服务标题-->
+<div class="lc_LunTitle w" style="height: 160px">
+    <div class="lc_LunTitle_box">
+        <span>专业的服务</span>
+
+        <p style="font-size:32px ">因为专业所以省心，为您打造舒心的健康家，是我们的态度。</p>
+    </div>
+</div>
+<!--专业的服务主体-->
+
+<div class="lc_serveBox">
+    <div class="wf">
+        <div class="lc_serveContent" id="lc_serveContent">
+            <ul>
+                <li><img src="../images/serveB.jpg" alt=""/></li>
+                <li><img src="../images/serveB.jpg" alt=""/></li>
+                <li><img src="../images/serveB.jpg" alt=""/></li>
+                <li><img src="../images/serveB.jpg" alt=""/></li>
+                <li><img src="../images/serveB.jpg" alt=""/></li>
+                <li><img src="../images/serveB.jpg" alt=""/></li>
+                <li><img src="../images/serveB.jpg" alt=""/></li>
+                <li><img src="../images/serveB.jpg" alt=""/></li>
+                <li><img src="../images/serveB.jpg" alt=""/></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--我们的客户标题-->
+<div class="lc_LunTitle w" style="height: 160px">
+    <div class="lc_LunTitle_box">
+        <span>客户是我们存在的全体理由</span>
+
+        <p style="font-size:28px line-height: 28px;">我们为您提供服务，并非是一种恩情，相反，是您施恩与我们，让咱们有机遇服务、学习、成长。<br>每一个成功，都是因为您的选择而开始...
+        </p>
+    </div>
+</div>
+<!--我们的客户主体-->
+
+<div class="pictureWall" id="pictureWall">
+    <!--心型 切换-->
+    <div id="switebox">
+        <ul id="swite">
+            <li></li>
+            <li></li>
+            <li id="test"><img src="../pictures/1.jpg"></li>
+            <li><img src="../pictures/11.jpg"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li><img src="../pictures/3.jpg"></li>
+            <li><img src="../pictures/40.jpg"></li>
+            <li></li>
+            <li></li>
+
+            <li></li>
+            <li><img src="../pictures/5.jpg"></li>
+            <li><img src="../pictures/6.jpg"></li>
+            <li><img src="../pictures/7.jpg"></li>
+            <li><img src="../pictures/41.jpg"></li>
+            <li></li>
+            <li><img src="../pictures/9.jpg"></li>
+            <li><img src="../pictures/10.jpg"></li>
+            <li><img src="../pictures/11.jpg"></li>
+            <li><img src="../pictures/12.jpg"></li>
+            <li></li>
+
+            <li><img src="../pictures/13.jpg"></li>
+            <li><img src="../pictures/14.jpg"></li>
+            <li><img src="../pictures/15.jpg"></li>
+            <li><img src="../pictures/16.jpg"></li>
+            <li><img src="../pictures/17.jpg"></li>
+            <li><img src="../pictures/18.jpg"></li>
+            <li><img src="../pictures/19.jpg"></li>
+            <li><img src="../pictures/46.jpg"></li>
+            <li><img src="../pictures/21.jpg"></li>
+            <li><img src="../pictures/22.jpg"></li>
+            <li><img src="../pictures/23.jpg"></li>
+
+            <li><img src="../pictures/24.jpg"></li>
+            <li><img src="../pictures/25.jpg"></li>
+            <li><img src="../pictures/26.jpg"></li>
+            <li><img src="../pictures/27.jpg"></li>
+            <li><img src="../pictures/28.jpg"></li>
+            <li><img src="../pictures/29.jpg"></li>
+            <li><img src="../pictures/30.jpg"></li>
+            <li><img src="../pictures/31.jpg"></li>
+            <li><img src="../pictures/32.jpg"></li>
+            <li><img src="../pictures/33.jpg"></li>
+            <li><img src="../pictures/34.jpg"></li>
+
+            <li></li>
+            <li><img src="../pictures/35.jpg"></li>
+            <li><img src="../pictures/36.jpg"></li>
+            <li><img src="../pictures/37.jpg"></li>
+            <li><img src="../pictures/38.jpg"></li>
+            <li><img src="../pictures/39.jpg"></li>
+            <li><img src="../pictures/40.jpg"></li>
+            <li><img src="../pictures/41.jpg"></li>
+            <li><img src="../pictures/42.jpg"></li>
+            <li><img src="../pictures/43.jpg"></li>
+            <li></li>
+
+            <li></li>
+            <li></li>
+            <li><img src="../pictures/44.jpg"></li>
+            <li><img src="../pictures/45.jpg"></li>
+            <li><img src="../pictures/46.jpg"></li>
+            <li><img src="../pictures/47.jpg"></li>
+            <li><img src="../pictures/48.jpg"></li>
+            <li><img src="../pictures/49.jpg"></li>
+            <li><img src="../pictures/2.jpg"></li>
+            <li></li>
+            <li></li>
+
+            <li></li>
+            <li></li>
+            <li></li>
+            <li><img src="../pictures/29.jpg"></li>
+            <li><img src="../pictures/13.jpg"></li>
+            <li><img src="../pictures/15.jpg"></li>
+            <li><img src="../pictures/26.jpg"></li>
+            <li><img src="../pictures/7.jpg"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li><img src="../pictures/9.jpg"></li>
+            <li><img src="../pictures/10.jpg"></li>
+            <li><img src="../pictures/17.jpg"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li><img src="../pictures/24.jpg"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="picture">
+        <p1>
+            <marquee>客户是我们存在的全体理由,我们为您提供服务，并非是一种恩情，相反，是您施恩与我们，让咱们有机遇服务、学习、成长。每一个成功，都是因为您的选择而开始...
+            </marquee>
+        </p1>
+        <p7>
+            <marquee direction=left>在今后的岁月里,希望能够继续得到您的信任、关心与支持,欢迎您向我们提出建议和批评,我们将以诚心、诚信、真诚和热情服务与每一位客户。</marquee>
+        </p7>
+        <p3>
+            <marquee direction=right>感谢你为我做的一切,你是我最想要感谢的朋友</marquee>
+        </p3>
+        <p4>
+            <marquee behavior=scroll direction=up height=500 style="z-index:3">感谢您的认同和支持</marquee>
+        </p4>
+        <p8>
+            <marquee behavior=scroll direction=down height=500>谢谢您的信赖</marquee>
+        </p8>
+        <!--<p5>-->
+        <!--<marquee scrollamount=20>您的选择是我们动力的源泉...</marquee>-->
+        <!--</p5>-->
+        <p6>
+            <marquee behavior=alternate>恭喜您！从今开始，您拥有一份优质的保障计划</marquee>
+        </p6>
+    </div>
+</div>
+<!--郑伟潮装修报价-->
+<div class="zwc_bg" id="zwcBg">
+    <div class="zwc_price" id="zwcPrice">
+        <ul>
+            <li class="zwc_list1">
+                <select id="zwc_provinces">
+                    <option>---省---</option>
+                    <option>广东</option>
+                    <option>湖南</option>
+                    <option>江苏</option>
+                    <option>浙江</option>
+                    <option>其他</option>
+                </select>
+                <select id="zwc_city">
+                    <option>---市---</option>
+                </select>
+            </li>
+            <li class="zwc_list2"><input type="text" value="房屋面积/平方米"></li>
+            <li class="zwc_list3">
+                <select>
+                    <option>----室----</option>
+                    <option>1室</option>
+                    <option>2室</option>
+                    <option>3室</option>
+                    <option>4室</option>
+                    <option>5室</option>
+                </select>
+                <select>
+                    <option>----厅----</option>
+                    <option>1厅</option>
+                    <option>2厅</option>
+                    <option>3厅</option>
+                </select>
+                <select>
+                    <option>----厨房----</option>
+                    <option>1厨</option>
+                    <option>2厨</option>
+                </select>
+            </li>
+            <li class="zwc_list4">
+                <select>
+                    <option>----卫----</option>
+                    <option>1卫</option>
+                    <option>2卫</option>
+                </select>
+                <select>
+                    <option>----阳台----</option>
+                    <option>1阳台</option>
+                    <option>2阳台</option>
+                </select>
+            </li>
+            <li class="zwc_list5"><input type="text"/></li>
+        </ul>
+        <div class="zwc_btn"></div>
+        <div class="zwc_cal">
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+        <div class="zwc_close">x</div>
+        <p class="zwc_wrong1">*</p>
+        <p class="zwc_wrong2">*</p>
+    </div>
+</div>
+
+
+
+<!--页脚-->
+<!--<div class="lc_footer" id="footer"></div>-->
+<div class="footer" id="footer">
+    <div class="w">
+        <div class="yj_f_w_top">
+            <div><img src="../images/kang-di.png" alt="" id="img"/></div>
+            <div class="arrow_up">
+                <div id="img_1">
+                    <img src="../images/h_flash.gif" alt=""/>
+                </div>
+
+                <div id="img_2">
+                    <img src="../images/bottom_tc_down.png" alt=""/>
+                </div>
+
+
+            </div>
+        </div>
+        <!--底部的下半部分-->
+        <div class="yj_f_w_bottom">
+            <!--底部的下半部分左边-->
+            <div class="f_w_b_left">
+                <div class="f_b_l_top clearfix">
+                    <img src="../images/jisuanji.png" alt="" id="compu"/>
+
+                    <div class="f_b_l_t_span">
+                        <span class="compu_txt_1">装修计算器</span>
+                        <span id="compu_txt_2" style="color:#C81623">已有<i>82598</i>位业主获取了装修预算</span></div>
+                </div>
+                <div class="f_b_l_content">
+                    <div class="yj_adress">
+                        <span style="color:#333">所在地区：</span>
+                        <select name="" style="color:#666">
+                            <option value="全国">全国</option>
+                            <option value="长沙">长沙</option>
+                            <option value="杭州">杭州</option>
+                            <option value="武汉">武汉</option>
+                            <option value="北京">北京</option>
+                            <option value="株洲">株洲</option>
+                            <option value="衡阳">衡阳</option>
+                            <option value="成都">成都</option>
+                            <option value="深圳">深圳</option>
+                            <option value="广州">广州</option>
+                            <option value="湘潭">湘潭</option>
+                            <option value="郑州">郑州</option>
+                            <option value="苏州">苏州</option>
+                            <option value="上海">上海</option>
+                            <option value="南京">南京</option>
+                            <option value="新疆">新疆</option>
+                        </select>
+                    </div>
+                    <div class="yj_adress">
+                        <span style="color:#333">房屋面积：</span>
+                        <input type="text" placeholder="填写您的房屋面积"/>
+                    </div>
+                    <div class="yj_adress">
+                        <span style="color:#333">您的名字：</span>
+                        <input type="text" placeholder="填写名字"/>
+                    </div>
+                    <div class="yj_adress">
+                        <span style="color:#333">您的手机：</span>
+                        <input type="text" placeholder="填写号码获取预算"/>
+                    </div>
+
+                </div>
+
+                <!--<span id="compu_txt">已有</span>-->
+            </div>
+            <div class="f_w_b_mid pa" id="f_w_b_midl">
+                <a href="#"
+                   style="font-size:20px;width:25px;display: block;margin-left: 40px;color:#fff;line-height: 30px">
+                    开始计算
+                </a>
+            </div>
+            <div class="f_w_b_right">
+                <div class="f_b_r_t" style="color:#333;font-size: 16px;margin: 10px 110px">
+                    <span>施工预算约 ？万元 全部预算约 ？万元</span>
+                    <a href="#" style="color:#ff0000;margin-left:28px;">重新计算</a>
+                </div>
+                <div class="f_w_b_r_cont"><span>卧室------------------------------------------------------------？元</span>
+                </div>
+                <div class="f_w_b_r_cont"><span>客厅------------------------------------------------------------？元</span>
+                </div>
+                <div class="f_w_b_r_cont"><span>厨房------------------------------------------------------------？元</span>
+                </div>
+                <div class="f_w_b_r_cont"><span>厕所------------------------------------------------------------？元</span>
+                </div>
+                <div class="f_w_b_r_cont"><span>阳台------------------------------------------------------------？元</span>
+                </div>
+                <div class="f_w_b_r_cont"><span>其他------------------------------------------------------------？元</span>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>
+<script src="../js/jquery-1.12.2.js"></script>
+
+<script type="text/javascript" src="../js/lc_say.js"></script>
+<script type="text/javascript" src="../js/yj_index.js"></script>
+<script type="text/javascript" src="../js/lc_second.js"></script>
+<script type="text/javascript" src="../js/lc_common.js"></script>
+<script src="../js/zwc.js"></script>
+
+
+
+
+
+

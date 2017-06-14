@@ -1,0 +1,117 @@
+/*顶部通栏*/
+.header{
+    height: 35px;
+    background-color: #333;
+    border-bottom: 1px solid #e7e7e7;
+}
+/*导航栏*/
+.nav {
+    width: 100%;
+    background-color: #cdf2ff;
+}
+.nav .w h1{
+    width: 262px;
+    float:left;
+}
+.nav .w  h1 #nav_w_a{
+    display: block;
+    text-indent: -999px;
+    overflow: hidden;
+    padding-left: 13px;
+}
+.nav h1 a #nav_w_img{
+    width: 262px;
+    height: 36px;
+    padding-left: 13px;
+    display: block;
+
+}
+.nav h1 a #nav_w_img1{
+    width: 262px;
+    height: 36px;
+    display: none;
+     padding-left: 13px;
+ }
+
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:100;
+}
+
+.nav .w #nav_ul{
+    width: 945px;
+    float:left;
+}
+.nav-item>a{
+    color:#fff;
+    font-weight: 600;
+}
+.nav_ul_inner a{
+    line-height: 18px;
+    padding-bottom: 12px;
+}
+.nav .w #nav_ul li{
+    background-image: url(../images/libg.jpg);
+}
+.nav .w .nav-item{
+    width: 100px;
+    line-height: 46px;
+    padding-top: 13px;
+    font-size: 16px;
+    float:left;
+    margin-left: 34px;
+    text-align: center;
+    position: relative;
+    background: url(../images/bg.jpg) no-repeat center 20px;
+}
+.nav .w .nav-item .nav_ul_inner{
+    width: 945px;
+    padding-top: 8px;
+    position: absolute;
+    top:42px;
+    left:0px;
+    display: none;
+}
+.nav  .nav-item .nav_ul_inner li{
+    width: 100px;
+    line-height: 12px;
+    padding-top: 13px;
+    font-size: 16px;
+}
+/*底部*/
+/*.footer{*/
+    /*width: 100%;*/
+    /*height: 67px;*/
+    /*background: rgba(49,49,49,.6);*/
+    /*position: fixed;*/
+    /*left:0px;*/
+    /*top:0px;*/
+    /*margin-top: 500px;*/
+/*}*/
+/*.footer .w #img{*/
+    /*width: 1150px;*/
+    /*height: 67px;*/
+    /*float:left;*/
+/*}*/
+/*.footer .arrow{*/
+    /*width: 100px;*/
+    /*height: 64px;*/
+    /*position: relative;*/
+    /*left:1144px ;*/
+    /*top:0px;*/
+/*}*/
+/*.footer .arrow #img_1{*/
+    /*width: 34px;*/
+    /*height: 141px;*/
+    /*position: absolute;*/
+    /*left:22px;*/
+    /*top:-58px;*/
+/*}*/
+/*/!*左部固定侧栏*!/*/
+/*.sider_left{*/
+    /*position: fixed;*/
+    /*left:0px;*/
+    /*top:200px;*/
+/*}*/

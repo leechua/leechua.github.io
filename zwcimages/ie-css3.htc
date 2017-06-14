@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>装修报价_新房装修大概多少钱_老房改造需要多少钱</title>
+<meta name="keywords" content="新房装修贵不贵,新房装修多少钱,老房重装大概多少钱" />
+<meta name="description" content="泥巴公社装修公司自立于装修行业数年，在行业里已经有很好的口碑。我们装修的宗旨是：给客户最低的价格，装修最好的质量，让客户放心，住的舒心。" />
+<link rel="stylesheet" type="text/css" href="http://www.n8house.com/templets/cs/css/style.css"/>	
+<link rel="stylesheet" type="text/css" href="http://www.n8house.com/templets/cs/css/reset-min.css">
+<link href='css/tabulous.css' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="http://www.n8house.com/templets/cs/js/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.n8house.com/templets/cs/js/tabulous.js"></script>
+<script src="http://www.n8house.com/templets/cs/js/jquery.lazyload.js?v=1.9.1"></script>
+<link rel="stylesheet" type="text/css" href="http://www.n8house.com/templets/cs/css/neiyegong.css"/>
+<link rel="stylesheet" href="http://www.n8house.com/templets/cs/css/lrtk.css">
+
+
+<style type="text/css">
+	.baijia-con{width:100%; text-align:center; overflow:hidden}
+</style>
+
+</head>
+<body>
+<!--头部 开始-->
+
+<script type="text/javascript">
+
+var mobileAgent = new Array("iphone", "ipod", "ipad", "android", "mobile", "blackberry", "webos", "incognito", "webmate", "bada", "nokia", "lg", "ucweb", "skyfire");
+
+var browser = navigator.userAgent.toLowerCase(); 
+
+var isMobile = false; 
+
+for (var i=0; i<mobileAgent.length; i++){ if (browser.indexOf(mobileAgent[i])!=-1){ isMobile = true; 
+
+//alert(mobileAgent[i]); 
+
+location.href = 'http://m.n8house.com/';
+
+break; } } 
+
+</script>
+
+	<!--顶部 开始-->
+<div class="header clearfix" style="background:#333;">
+	<div class="wrap clearfix">
+		<ul class="clearfix">
+			<li class="spe-li11">
+				<img src="http://www.n8house.com/templets/cs/images/position.png" class="ul-i" style='' />
+				<span class="ul-span" style="color: #b0b0b0;">您的当前位置</span>
+			</li>
+			<li class="spe-li" style="width:60px;">
+				<span class="ul-afterspan" style="color: rgb(255, 255, 255);" >长沙</span>
+				<img src="http://www.n8house.com/templets/cs/images/add_whitexiala.png" class="ul-after"/>
+			</li>
+			<li class="ul-right" id="header_taobao" style="color: #b0b0b0;">
+				<img src="http://www.n8house.com/templets/cs/images/tel.png" style="float:left;margin-top: 5px;margin-right: 7px;">24小时热线:400-718-8977
+			</li>
+		</ul>
+	</div>
+</div>
+<!--顶部 结束-->
+<div class="nav">
+	<div class="wrap clearfix">
+		<div class="nav-a">
+			<a href="http://www.n8house.com/zt/n8qing/" target="_blank"><img src="http://www.n8house.com/templets/cs/images/logo.png" alt="" />
+			</a>
+		</div>
+		<ul><li><a href="http://n8house.com/" target="_blank">首页</a></li>
+			
+			<li  class="hot"><a href="http://n8house.com/xinfangzhengzhuang/" class="" target="_blank">新房整装</a></li>
+			
+			<li  class="hot"><a href="http://n8house.com/laofanggaizao/" class="" target="_blank">老房改造</a></li>
+			
+			<li  ><a href="http://n8house.com/gaoqinganli/" class="" target="_blank">高清案例</a></li>
+			
+			<li  class="hot"><a href="http://n8house.com/zhuangxiubaojia/" class="" target="_blank">装修报价</a></li>
+			
+			<li  ><a href="http://n8house.com/VRtiyanguan/" class="" target="_blank">VR体验馆</a></li>
+			
+			<li  ><a href="http://n8house.com/zhuangxiuketang/" class="" target="_blank">装修课堂</a></li>
+			
+		</ul>
+	</div>
+</div>
+<script>
+function myBrowser(){
+    var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
+    var isOpera = userAgent.indexOf("Opera") > -1;
+    if (isOpera) {
+        return "Opera"
+    }; //判断是否Opera浏览器
+    if (userAgent.indexOf("Firefox") > -1) {
+        return "FF";
+    } //判断是否Firefox浏览器
+    if (userAgent.indexOf("Chrome") > -1){
+  return "Chrome";
+ }
+    if (userAgent.indexOf("Safari") > -1) {
+        return "Safari";
+    } //判断是否Safari浏览器
+    if (userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1 && !isOpera) {
+        return "IE";
+    }; //判断是否IE浏览器
+}
+	var ww=$(window).width();
+	var winh=$(window).height();
+	var wh=$(document).height();
+	var scroll=0;
+	var jian=0;
+
+//以下是调用上面的函数
+var mb = myBrowser();
+if ("Safari" != mb) {
+	$(window).scroll(function(){
+		scroll=$(window).scrollTop();
+		//scroll = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
+		jian=wh-scroll-winh;
+		if(scroll>=38){
+			//alert(scroll);
+			$(".nav").addClass("nav_fix");
+			$(".nav .nav-a img").attr({ "src": "http://www.n8house.com/templets/cs/images/logo1.png" });
+			//$('.logo_bjs').hide(500);
+		}else{
+			$(".nav").removeClass("nav_fix");
+			$(".nav .nav-a img").attr({ "src": "http://www.n8house.com/templets/cs/images/logo.png" });
+			//$('.logo_bjs').show(500);
+		}
+		if(scroll<winh){
+			$(".bh").css({"opacity":"0"});
+		}else{
+			$(".bh").css({"opacity":"1"});
+		}
+	});
+   
+}
+	$(".logo_l").hover(function (){
+		$(this).stop().animate({"width":"170px"});
+		$('.nbanav_bj').show();
+		//$('.nbanav_bj').stop().animate({"display":"block"});
+	},	function (){
+		$(this).stop().animate({"width":"45px"});
+		//$('.nbanav_bj').stop().animate({"display":"block"});
+	});
+	$(".nbanav_bj").hover(function (){
+		$(this).show();
+		//$('.nbanav_bj').stop().animate({"display":"block"});
+	},	function (){
+		$(this).hide();
+		//$('.nbanav_bj').stop().animate({"display":"block"});
+	});
+	//function func(){
+	//	$('.nbanav_bj').css('background','url(images/nbanav_bj.png)');
+	//	}
+	//function func1(){
+	//	$('.nbanav_bj').css('background','url(images/nbanav_bj2.png)');
+	//	}
+</script>
+<link rel="stylesheet" href="http://www.n8house.com/templets/cs/css/alert_a.css" />
+
+  <div style="position: fixed; top: 0px; left: 0px; z-index: 1000; background: rgba(178, 178, 178, 0.498039); width: 100%; height: 100%; display:none" class="city">
+     <div style="width: 712px; background: rgb(255, 255, 255); margin: 10% auto;">
+        <div style="position: relative; margin-bottom: 20px; height: 99px;">
+            <img src="http://www.n8house.com/templets/cs/images/area_head.png" />
+            <a href="javascript:void(0)" id="cha11" style="position: absolute; top: 12px; right: 12px; display:inline-block;">
+               <img src="http://www.n8house.com/templets/cs/images/area1.png" />
+            </a>
+        </div>
+        <div style="width:677px; margin: 0px auto;">
+           <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-top: 1px solid rgb(220, 220, 220); line-height: 34px; font-size: 14px;">
+              <tbody>
+                 <tr>
+                   <th width="41" style="width: 73px; border-right: 1px solid rgb(220, 220, 220); border-bottom: 1px solid rgb(220, 220, 220); font-weight: normal; color: rgb(51, 51, 51);">华北</th>
+                   <td style="border-bottom: 1px solid rgb(220, 220, 220);">
+                    
+                     <a href='http://bj.n8zs.com/' style="margin: 0px 15px; color: rgb(108, 108, 108);">北京</a>					
+                    
+                     <a href='http://tianjin.n8zs.com/' style="margin: 0px 15px; color: rgb(108, 108, 108);">天津</a>					
+                    
+                   </td>
+                 </tr>
+                 
+                 <tr>
+                   <th width="41" style="width: 73px; border-right: 1px solid rgb(220, 220, 220); border-bottom: 1px solid rgb(220, 220, 220); font-weight: normal; color: rgb(51, 51, 51);">华东</th>
+                    <td style="border-bottom: 1px solid rgb(220, 220, 220);">
+                    
+                     <a href='http://hz.n8house.com/' style="margin: 0px 15px; color: rgb(108, 108, 108);">杭州</a>					
+                    
+                     <a href='http://suz.n8houses.com/' style="margin: 0px 15px; color: rgb(108, 108, 108);">苏州</a>					
+                    
+                     <a href='http://nj.n8houses.com/' style="margin: 0px 15px; color: rgb(108, 108, 108);">南京</a>					
+                    
+                     <a href='http://sh.n8houses.com/' style="margin: 0px 15px; color: rgb(108, 108, 108);">上海</a>					
+                    
+                    </td>
+                  </tr>
+                   
+                 <tr>
+                 <th width="41" style="width: 73px; border-right: 1px solid rgb(220, 220, 220); border-bottom: 1px solid rgb(220, 220, 220); font-weight: normal; color: rgb(51, 51, 51);">华南</th>
+                   <td style="border-bottom: 1px solid rgb(220, 220, 220);">
+                    
+                     <a href='http://gz.n8house.com/' style="margin: 0px 15px; color: rgb(108, 108, 108);">广州</a>					
+                    
+                     <a href='http://sz.n8zs.com/' style="margin: 0px 15px; color: rgb(108, 108, 108);">深圳</a>					
+                    
+                     <a href='http://fuzhou.n8house.com/' style="margin: 0px 15px; color: rgb(108, 108, 108);">福州</a>					
+                    
+                     <a href='http://foshan.n8house.com/' style="margin: 0px 15px; color: rgb(108, 108, 108);">佛山</a>					
+                    
+                   </td>
+                 </tr>
+                 
+                 <tr>
+                 <th width="41" style="width: 73px; border-right: 1px solid rgb(220, 220, 220); border-bottom: 1px solid rgb(220, 220, 220); font-weight: normal; color: rgb(51, 51, 51);">华中</th>
+                  <td style="border-bottom: 1px solid rgb(220, 220, 220);">
+                    
+                     <a href='http://hb.n8zs.com/' style="margin: 0px 15px; color: rgb(108, 108, 108);">武汉</a>					
+                    
+                     <a href='http://xa.n8zs.com/' style="margin: 0px 15px; color: rgb(108, 108, 108);">西安</a>					
+                    
+                     <a href='http://zhengzhou.n8zs.com/' style="margin: 0px 15px; color: rgb(108, 108, 108);">郑州</a>					
+                    
+                   </td>
+                 </tr>
+                 
+                 <tr>
+                   <th width="41" style="width: 73px; border-right: 1px solid rgb(220, 220, 220); border-bottom: 1px solid rgb(220, 220, 220); font-weight: normal; color: rgb(51, 51, 51);">西南</th>
+                   <td style="border-bottom: 1px solid rgb(220, 220, 220);">
+                    
+                     <a href='http://n8house.com/' style="margin: 0px 15px; color: rgb(108, 108, 108);">长沙</a>					
+                    
+                     <a href='http://www.n8houses.com/' style="margin: 0px 15px; color: rgb(108, 108, 108);">成都</a>					
+                    
+                     <a href='http://zz.n8house.com/' style="margin: 0px 15px; color: rgb(108, 108, 108);">株洲</a>					
+                    
+                     <a href='http://ll.n8house.com/' style="margin: 0px 15px; color: rgb(108, 108, 108);">醴陵</a>					
+                    
+                     <a href='http://cz.n8house.com/' style="margin: 0px 15px; color: rgb(108, 108, 108);">郴州</a>					
+                    
+                     <a href='http://hy.n8house.com/' style="margin: 0px 15px; color: rgb(108, 108, 108);">衡阳</a>					
+                    
+                     <a href='http://xt.n8house.com/' style="margin: 0px 15px; color: rgb(108, 108, 108);">湘潭</a>					
+                    
+                   </td>
+                  </tr>
+              </tbody> 
+           </table>
+           <strong style="display: block; font-weight: normal; text-align: center; line-height: 34px; color: rgb(108, 108, 108);">更多城市敬请期待！</strong>
+        </div>
+     </div>
+  </div>
+  <script>
+  $('.spe-li').click(function(){
+		$('.city').show(); 
+    });
+  $('.spe-li11').click(function(){
+	  $('.city').show();
+  })	
+  $('#cha11').click(function(){
+      $('.city').hide(); 
+  })
+
+
+ </script>
+<!--头部 结束-->	
+<div class="zx-banner">
+    <!--banner-->
+    <div class="zx-banner-img">
+	   <div class="slide_container">
+			<ul class="rslides" id="slider">
+				 <li>
+				 	<img src="http://www.n8house.com/templets/cs/images/kang1.jpg" alt="">
+				 </li>
+				 <li>
+				 	<img src="http://www.n8house.com/templets/cs/images/kang2.jpg" alt="">
+				 </li>
+				 <li>
+				 	<img src="http://www.n8house.com/templets/cs/images/kang2.jpg" alt="">
+				 </li>
+			</ul>
+        </div>
+	</div>
+    <!--/banner-->
+    <div class="baojia"></div>
+    <div class="baojia-num">
+        <div class="baojia-img">
+                                  <!--报价-->
+            <div class="computing">
+                <div class="computing-tit clearfix">
+                    <h2><i class="jsq-icon"></i>装修计算器</h2>
+                    <span>已有82598位业主获取了装修预算</span>
+                    <span class="again">重新计算</span>
+                </div>
+                <div class="clearfix" >
+	<!------------iframe-------------------------------------------------------------------->
+<!--表单 start-->	
+<form action="javascript:;" enctype="multipart/form-data" method="post" class="clearfix baijia_form">
+<input type="hidden" name="action" value="post" />
+<input type="hidden" name="diyid" value="2" />
+<input type="hidden" name="do" value="2" />
+	<div class=""style="float: left;margin-right: 20px;">
+		<div class="computing-address">                         
+			<span>所在地区：</span>                                
+          <select name="message_phone" id="message_phone" class="sel entered-inp">
+              
+          <option value='长沙'>长沙</option>
+          <option value='杭州'>杭州</option>
+          <option value='武汉'>武汉</option>
+          <option value='北京'>北京</option>
+          <option value='株洲'>株洲</option>
+          <option value='郴州'>郴州</option>
+          <option value='衡阳'>衡阳</option>
+          <option value='醴陵'>醴陵</option>
+          <option value='成都'>成都</option>
+          <option value='深圳'>深圳</option>
+          <option value='广州'>广州</option>
+              
+          </select>                               
+
+		</div>
+          <div class="computing-address">
+			<span>房屋面积：</span>
+			<input type="text"  name='message_tel' id='message_tel' class="bj_mianji" placeholder="填写您的房屋面积"/>
+		</div>
+                                
+                         <div class="computing-address">
+			<span>您的名字：</span>
+			<input type="text" name='message_name' id='message_name' class="bj_name" placeholder="填写名字" />
+		</div>
+                                    
+                     <div class="computing-address">
+			<span>您的手机：</span>
+			<input type="text" name='message_qq' id='message_qq' class="bj_phone" placeholder="填写号码获取预算" />
+		</div>    
+                                
+
+	</div>
+	<div class="kaishi">
+		<span>开始计算</span>
+        <input type='hidden' name='times' id='times' value='' />
+        <input type="hidden" name="dede_fields" value="message_phone,select;message_tel,text;message_name,text;message_qq,text;times,text;source,text" />
+        <input type="hidden" name="dede_fieldshash" id="dede_fieldshash_baojia_jisuan" value="5268383ce3bd2cca2599eb4811339015" />
+        <input type="hidden" name="source" id="source_baojia_jisuan" value="装修报价页面的装修计算器--" />
+		<input type="button" name="" id="baojia_submit" value=""/>
+	</div>
+</form>
+<script src="http://www.n8house.com/templets/cs/js/jquery-1.12.2.min.js" type="text/javascript" charset="utf-8"></script>
+<!--<script src="http://www.n8house.com/templets/cs/js/baojia.js" type="text/javascript" charset="utf-8"></script>-->
+<script type="text/javascript">
+	var num=688;//每平方多少钱
+    var count=0;//总价格
+    var alert_word="";
+	var post_flag = false;
+$("#baojia_submit").click(function(){
+	var bj_mj=$(".bj_mianji").val();
+	var bj_name=$(".bj_name").val();
+	var bj_phone=$(".bj_phone").val();
+	console.log(bj_mj+"--"+bj_name+"--"+bj_phone);
+	console.log($(".bj_name").attr("placeholder"));
+	var alert_num=/^[0-9]*$/;
+	var alert_name=/^[\u4E00-\u9FFF]+$/;
+	var alert_phone=/^0?1[3|4|5|8][0-9]\d{8}$/;
+
+	if(bj_mj==""||bj_name==""||bj_phone==""||!alert_num.test(bj_mj)||!alert_name.test(bj_name)||!alert_phone.test(bj_phone)){
+		alert('请认真填写，计算更精确哦！！！');
+    	return false;
+
+	}else{		
+		var nowDate = new Date();
+		var str = nowDate.getFullYear()+"-"+(nowDate.getMonth() + 1)+"-"+nowDate.getDate()+" "+nowDate.getHours()+":"+nowDate.getMinutes()+":"+nowDate.getSeconds();
+		document.getElementById("times").value=str;
+		
+		var message_phone	=document.getElementById("message_phone");
+		var message_tel    =document.getElementById("message_tel");
+		var message_name	=document.getElementById("message_name");
+		var message_qq    =document.getElementById("message_qq");
+		var times    	=document.getElementById("times");
+		var source    	=$("#source_baojia_jisuan").val();
+		var dede_fieldshash    	=$("#dede_fieldshash_baojia_jisuan").val();
+
+		if (post_flag) return ;
+		post_flag = true;
+
+		//定义变量接收上面表单每项的值和几个dede隐藏的input的值
+		var dataString = 'message_phone='+ message_phone.value + '&message_tel=' + message_tel.value + '&message_name=' + message_name.value +  '&message_qq=' + message_qq.value + '&source=' +source +  '&times=' + times.value +'&action=post'+ '&diyid=2&do=2&dede_fields=message_phone,select;message_tel,text;message_name,text;message_qq,text;times,text&dede_fieldshash='+dede_fieldshash;
+		$.ajax({
+			type: "POST",
+			url: "http://www.n8house.com/plus/diy.php", //提交到后台文件
+			data: dataString, //传值
+			success: function(data) {
+	            post_flag = false;
+				alert(data);//成功打印PHP返回的值
+			
+			}
+		});
+		count=num*parseInt(bj_mj);
+		window.parent.$("#bj_em1").text(count/10000);
+		window.parent.$("#bj_em2").text(count/10000);
+		window.parent.$("#bj_ws").text(parseInt(count*30/100)+"元");
+		window.parent.$("#bj_kt").text(parseInt(count*20/100)+"元");
+		window.parent.$("#bj_cf").text(parseInt(count*20/100)+"元");
+		window.parent.$("#bj_wc").text(parseInt(count*12/100)+"元");
+		window.parent.$("#bj_yt").text(parseInt(count*8/100)+"元");
+		window.parent.$("#bj_qt").text(parseInt(count*10/100)+"元");
+	}
+})
+</script>
+
+<!--表单 end-->
+                                                               
+								<div class="computing-right">
+									<p class="computing-right-tit">施工预算约 <em id="bj_em1">？</em>万元 全部预算约 <em id="bj_em2">？</em>万元</p>
+									<div class="computing-right-con clearfix">
+										<p class="fj">卧室</p>
+										<span></span>
+										<p class="jg" id="bj_ws">？元</p>
+									</div>
+									<div class="computing-right-con clearfix">
+										<p class="fj">客厅</p>
+										<span></span>
+										<p class="jg" id="bj_kt">？元</p>
+									</div>
+									<div class="computing-right-con clearfix">
+										<p class="fj">厨房</p>
+										<span></span>
+										<p class="jg" id="bj_cf">？元</p>
+									</div>
+									<div class="computing-right-con clearfix">
+										<p class="fj">厕所</p>
+										<span></span>
+										<p class="jg" id="bj_wc">？元</p>
+									</div>
+									<div class="computing-right-con clearfix">
+										<p class="fj">阳台</p>
+										<span></span>
+										<p class="jg" id="bj_yt">？元</p>
+									</div>
+									<div class="computing-right-con clearfix">
+										<p class="fj">其他</p>
+										<span></span>
+										<p class="jg" id="bj_qt">？元</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--报价-->
+                                            
+						<div style="width:1200px;text-align:center;margin:0 auto;border:1px solid #CFC2B1;margin-top:60px;background: url(http://www.n8house.com/templets/cs/images/bjxb.png) no-repeat;">
+	<div style="width:100%;text-align:left;height:35px;line-height:30px;">
+        <div style="float:left;margin-left:15px;">【温馨提示】:</div>
+        <div style="float:left;width:800px;margin-left:15px;color:red;">
+            <!--marquee 滚动标签 scrollamount滚动的速度  延时 scrolldelay="180"--->
+            <marquee width="800px" scrollamount="4" onmouseover="this.stop()" onmouseout="this.start()">
+各位业主：一键一家报价系统是市场上唯一具有国家知识产权的报价系统，旨在为广大业主装修中更好的了解建材价格而研发的。本平台报价器信息免费并保证后台信息安全，请放心使用，祝装修顺心!</marquee>
+        </div>
+  	</div> 
+    <div style="clear:both;"></div>   
+    <iframe src="http://hefei.1j1j.cn/gsbj/bjjsq.jsp?jmid=nibagongshe" width="950" height="168" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>
+</div>
+
+					</div>
+				</div>
+			</div>
+			
+			
+		<div class="baijia-con">
+				<p class="width1200 baojia-duibi"><img alt="baojia4.jpg" src="http://www.n8house.com/templets/cs/images/baojia4.jpg" title="baojia4.jpg"/></p>
+				<p><img alt="baojia5.jpg" src="http://www.n8house.com/templets/cs/images/baojia5.jpg" title="baojia5.jpg" width="100%" /></p>
+				<p><img alt="baojia6.jpg" src="http://www.n8house.com/templets/cs/images/baojia6.jpg" title="baojia6.jpg" width="100%" /></p>
+				<p class="width1200 baojia-duibi"><img alt="baojia7.jpg" src="http://www.n8house.com/templets/cs/images/baojia7.jpg" title="baojia7.jpg"/></p>
+				<p class="width1200 baojia-duibi"><img alt="baojia8.jpg" src="http://www.n8house.com/templets/cs/images/baojia8.jpg" title="baojia8.jpg"/></p>
+		</div>
+			
+
+<!--遮层 开始-->
+<div class="zhec">
+<div class="zhecdiv">
+<!--<div class="zhecdiv_l">
+ <i></i><i></i>
+</div>-->
+
+	<div class="zhecdiv_r">
+	<div class="cha"><img src="http://www.n8house.com/templets/cs/images/cha.jpg"></div>
+
+	<form action="javascript:;" enctype="multipart/form-data" method="post" class="bl-form bl-formhor">
+	<input type="hidden" name="action" value="post" />
+	<input type="hidden" name="diyid" value="3" />
+	<input type="hidden" name="do" value="2" />
+			<ul>
+				<li class="bl-form-group">
+					<label> </label>
+							 <div class="controls">
+			 <select name="" id="prov" onchange ="ld();">   
+			   <option value="-1">---省---</option>
+				<option value="0">湖南</option>  
+				<option value="1">广东</option>
+				<option value="2">北京</option> 
+				<option value="3">四川</option>  
+				<option value="4">其他</option>  
+			</select>  
+			<select name="" id="city">              
+				<option value="-1">---市---</option> 
+			</select>   
+					</div>
+				</li>
+				<li class="bl-form-group">
+					<label><em> </em> </label>
+					<div class="controls">
+						<input type="text"  name='mianji' id='mianji' value="" class="fn-tinput" placeholder="房屋面积" required data-msg-required="不能为空" data-rule-gt="true" data-gt="0"/>
+					</div>
+				</li>
+				
+				<li class="bl-form-group">
+					<label> </label>
+					<div class="controls2">
+						<select style=" width:113px; height:39px" name="shi" id="shi" required>
+							<option value="">----室----</option>
+							<option value="1室">1室</option>
+							<option value="2室">2室</option>
+							<option value="3室">3室</option>
+							<option value="4室">4室</option>
+							<option value="5室">5室</option>
+						</select>
+						<select name="ting" id="ting" required>
+							<option value="">----厅----</option>
+							<option value="1厅">1厅</option>
+							<option value="2厅">2厅</option>
+							<option value="3厅">3厅</option>
+						</select>
+						<select name="chu" id="chu" required>
+							<option value="">----厨房----</option>
+							<option value="1厨">1厨</option>
+							<option value="2厨">2厨</option>
+						</select>
+						<select class="select4" name="wei" id="wei" required>
+							<option value="">----卫----</option>
+							<option value="1卫">1卫</option>
+							<option value="2卫">2卫</option>
+						</select>
+						<select class="select5" name="yang" id="yang" required>
+							<option value="">----阳台----</option>
+							<option value="1阳台">1阳台</option>
+							<option value="2阳台">2阳台</option>
+						</select>
+					</div>
+				</li>
+				<li class="bl-form-group" style=" margin-bottom:12px;">
+					<label> </label>
+					<div class="controls">
+					<input type='text' name='tel_tc' id='tel_tc' style=''  class='fn-tinput' value='' />
+
+					</div>
+				</li>
+			</ul>
+			<input type='hidden' name='times' id='timess' />
+			
+			<input type="hidden" name="dede_fields" value="sheng,select;city,select;mianji,text;shi,select;ting,select;chu,select;wei,select;yang,select;tel,text;times,text" />
+			<input type="hidden" name="dede_fieldshash" value="be1920254ffde242ca510c302b6e5a2f" />
+			<button class="btn-submit submitBtn" style=' background:none' type="button">   </button>
+		</form>
+
+	</div>
+	
+
+	</div>
+	
+</div>
+	
+
+	
+
+
+</div>
+<script type="text/javascript">
+	var zch=($(window).height()-$('.zhecdiv').height())/2;
+	$('.zhec').delay(5000).show(500);
+	$('.zhecdiv').css('margin-top',zch+'px');
+	$('.cha').click(function(){
+		$('.zhec').hide(500);
+		});
+//	function zc2(){
+//	$('.zhecdiv').css('background','url(images/zhec_bj.png)');
+//	}
+//function zc1(){
+//	$('.zhecdiv').css('background','url(images/zhec_bj2.jpg)');
+//	}
+
+	
+function add_ajaxmessage(){
+	var nowDate = new Date();
+	var str = nowDate.getFullYear()+"-"+(nowDate.getMonth() + 1)+"-"+nowDate.getDate()+" "+nowDate.getHours()+":"+nowDate.getMinutes()+":"+nowDate.getSeconds();
+	document.getElementById("times").value=str;
+	
+
+    var name=document.getElementById("namezc");
+    var tel    =document.getElementById("telzc");
+    var times    =document.getElementById("times");
+	
+	var reg = /^(?:1\d)\d{6}(\d{3}|\*{3})$/;
+	var	xing=/^[\u4e00-\u9fa5 ]{2,8}$/;	
+	
+    
+    //定义变量接收上面表单每项的值和几个dede隐藏的input的值
+    var dataString = 'name='+ name.value + '&tel=' + tel.value + '&times=' + times.value +'&action=post'+ '&diyid=1&do=2&dede_fields=name,text;tel,text;times,text&dede_fieldshash=a05f92dbf6105a765fa00c8885bebb39';
+
+	if(xing.test(name.value) && reg.test(tel.value)){
+	   $.ajax({
+        type: "POST",
+        url: "http://www.n8house.com/plus/diy.php", //提交到后台文件
+        data: dataString, //传值
+        success: function(data) {
+
+            alert(data);//成功打印PHP返回的值
+        }
+    });
+	}else{
+	  alert(name.value+'填写的信息不完整'+tel.value);
+	  return false;
+	}
+  }
+
+
+</script>
+<!--遮层 结束-->
+<div class="footer">
+				<div class="wrap">
+					<div class="footer-content clearfix">
+						<ul class="footer-left">
+						<!--
+							<li class="footer-li">关于我们</li>
+							<li><a href="http://bj.n8zs.com/About/2017/0103/20122.html?1484116969/">公司简介</a></li>
+							<!--<li><a href="">诚聘英才</a></li>
+							<li><a href="">售后保障</a></li>-->
+						</ul>
+						<ul class="footer-left footer-ul">
+							<li class="footer-li">联系我们</li>
+                            <li>全国统一服务热线：400-718-8977</li>
+							<li>地址:北京市朝阳区安立路安立花园C座9层</li>
+					
+						</ul>
+						<!--
+						<div class="footer-right clearfix">
+							<div class="footer-right1">
+								<p class="footer-us">关注我们</p>
+								<img src="http://www.n8house.com/templets/cs/images/foot1.jpg" style="width:108px; height:108px;"/>
+								<p>用手机微信APP扫一扫获取更多优惠</p>
+							</div>
+							<div class="footer-right2">
+								<img src="http://www.n8house.com/templets/cs/images/foot2.png"  style="width:108px; height:108px;"/>
+								<p>用手机淘宝APP扫一扫获取更多优惠</p>
+							</div>
+						</div>-->
+					</div>
+				</div>
+			</div>
+            <!--蒙板-->
+
+
+			<div class="black">
+				<div class="wrap">
+					<p>© 2005-2016 泥巴公社官方网站／老房翻新,改造装修的老品牌 版权所有，并保留所有权利    
+					地址:长沙市岳麓区岳麓大道与银盆南路交汇处   湘ICP备11016765号-6 
+					</p>
+					<ul class="frilink_ul">
+					<li>友情链接：</li>
+					<li><a href="" target="_blank">长沙装修</a></li>
+					<li><a href="http://hz.n8house.com" target="_blank">杭州装修</a></li>
+					<li><a href="http://gz.n8house.com" target="_blank">广州装修</a></li>
+					<li><a href="http://hb.n8house.com" target="_blank">武汉装修</a></li>
+					<li><a href="http://bj.n8house.com" target="_blank">北京装修</a></li>
+					<li><a href="http://zz.n8house.com" target="_blank">株洲装修</a></li>
+					<li><a href="http://cz.n8house.com" target="_blank">郴州装修</a></li>
+					<li><a href="http://hy.n8house.com" target="_blank">衡阳装修</a></li>
+					<li><a href="http://ll.n8house.com" target="_blank">醴陵装修</a></li>
+					</ul>
+                </div>
+			</div>
+		
+<!--底部 结束-->
+<script src="http://www.n8house.com/templets/cs/js/zwc_index.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://www.n8house.com/templets/cs/jss/responsiveslides.min.js"></script>
+<script src="http://www.n8house.com/templets/cs/jss/slide.js"></script>
+<script>
+(function() {
+  var _53code = document.createElement("script");
+  _53code.src = "//tb.53kf.com/code/code/10074340/1";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(_53code, s);
+})();
+</script>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254812528'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1254812528' type='text/javascript'%3E%3C/script%3E"));</script>
+
+<script>  
+            var area = [  
+            ['长沙', '郴州', '岳阳'],  
+            ['广州', '东莞', '深圳', '惠州'],
+            ['请选择', '长治', '太原', '自定义'] ,
+            ['请选择', '长治', '太原', '自定义'] 
+            ]; // area[0]就是北京的各个地区了  
+      
+            function ld(){  
+                var sel = document.getElementById('prov');  
+                // alert(sel.value);  
+                var opt = '';  
+                if (sel.value == '-1') {  
+                    document.getElementById('city').innerHTML = opt;  
+                    return;   // 如果显示的是选择，则城市的栏目里什么也没有返回  
+                }  
+      
+                for(var i=0, len=area[sel.value].length; i<len; i++){  
+                    opt = opt + '<option value="'+ i +'">' + area[sel.value][i] + '</option>';//+i+指的是连接符  
+                //alert(opt);  
+                document.getElementById('city').innerHTML = opt;  
+                }  
+            }  
+        </script> 	
+</body>
+</html>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254812528'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1254812528' type='text/javascript'%3E%3C/script%3E"));</script>
+ 
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?2741ff77122fc71836cd215d6b2af691";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+

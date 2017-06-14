@@ -1,0 +1,173 @@
+
+.header{
+  height: 100px;
+  background-color: #f00;
+}
+/*顶部广告图*/
+.banner-frame {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+.banner-frame .banner-ls {
+  position: absolute;
+  height: 100%;
+}
+.banner-frame .banner-ls .banner-item {
+  float: left;
+  height: 100%;
+  background-position: center center;
+}
+.banner-frame .point-ls {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  height: 16px;
+  text-align: center;
+}
+.banner-frame .point-ls span {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #DADADA;
+}
+.banner-frame .point-ls span.active {
+  background-color: #E6002D;
+}
+/*表单部分*/
+.banner-frame .info-frame {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  width: 250px;
+  height: 380px;
+  border-radius: 10px;
+  background-color: rgba(120, 130, 130, 0.85);
+}
+.ly_form_bj{
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  text-align: center;
+  color:#fff;
+  background-color: #f00;
+}
+.ly_form-bottom{
+
+}
+.ly_form_line{
+  width: 250px;
+  margin: 15px auto;
+}
+.info-frame .ly_form_money{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+.ly_form_mone .people span{
+  font-size: 16px;
+  color: #f00;
+}
+.ly_form_line input{
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 12px;
+  display: block;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 14px;
+  background: rgba(255, 255, 255, 1);
+}
+.ly_form_line span{
+  position:absolute;
+  right:35px;
+  top:250px;
+}
+
+/*案例*/
+.tab-frame {
+  width: 1260px;
+  margin: 20px auto;
+}
+.tab-frame .tab-title {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.tab-frame .tab-title span {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.tab-frame .tab-title span.active {
+  color: #B61F24;
+  font-size: 22px;
+}
+.tab-frame .tab-info {
+  position: relative;
+  width: 100%;
+}
+.tab-frame .tab-item {
+  position: absolute;
+  cursor: pointer;
+  overflow: hidden;
+}
+.tab-frame .tab-item img {
+  width: 100%;
+  height: 100%;
+}
+.tab-frame .tab-item img:hover {
+  transform: scale(1.1);
+  transition: transform 1s; 
+  
+}
+.tab-frame .tab-item1 {
+  left: 0;
+  top: 0;
+  width: 570px;
+  height: 300px;
+}
+.tab-frame .tab-item2 {
+  right: 0;
+  top: 0;
+  width: 680px;
+  height: 480px;
+}
+.tab-frame .tab-item3 {
+  left: 0;
+  top: 310px;
+  width: 570px;
+  height: 360px;
+}
+.tab-frame .tab-item4 {
+  left: 646px;
+  top: 490px;
+  width: 340px;
+  height: 180px;
+}
+.tab-frame .tab-item5 {
+  top: 490px;
+  right: 0;
+  width: 340px;
+  height: 180px;
+}
+.tab-frame-box{
+  height: 740px;
+  background-color: #e5e5e5;
+  margin-top: 20px;
+}
+.zy_style_boxallbox{
+  background-color: #e5e5e5;
+  height: 600px;
+}
+/*服务背景*/
+.zy_service_box{
+  height: 680px;
+  /*padding-top: 20px;*/
+}

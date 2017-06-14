@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../zhangnan/css/common.css">
+        <link rel="stylesheet" href="../zhangnan/css/style.css">
+        <script src="../zhangnan/js/script.js"></script>
+        <script src="../zhangnan/js/jquery-1.12.2.min.js"></script>
+
+    </head>
+    <body>
+        <!-- 界面初始化 -->
+        <div class="open" id="open">
+            <div id="circle"></div>
+            <div class="circle1">
+                <img src="../zhangnan/images/loading-home.gif" alt="open">
+            </div>
+            
+        </div>
+        <!-- 飞机部分 -->
+        <div class="onepage" id="onepage">
+            <div class="plane" id="plane">
+                <img src="../zhangnan/images/plane.svg" alt="飞机">
+                <div id="propeller"></div>
+            </div>
+            <!-- 菜单栏 -->
+            <div id="menulabel">
+                <div class="w clearfix">
+                    <!-- <div class="znlogo">
+                        <img src="images/xunzhao_dt.png" alt="log">
+                    </div>
+                    <ul>
+                        <li><a href="javascript:void(0);">首页</a></li>
+                    </ul> -->
+                    <!-- 导航栏 -->
+                        <h1>
+                            <a href="#" id="nav_w_a">泥巴公社
+                                <img src="../zhangnan/images/logo.png" alt="" id="nav_w_img"/>
+                                <img src="../zhangnan/images/logo1.png" alt="" id="nav_w_img1"/>
+                            </a>
+                        </h1>
+
+
+                        <ul id="nav_ul">
+                            <li class="nav-item">
+                                <a href="../index.html" id="a_1">首页</a>
+                                <ul class="nav_ul_inner">
+                                    <li><a href="#">首页</a></li>
+                                    <li><a href="#">首页</a></li>
+                                    <li><a href="#">首页</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="lc_second.html" id="a_2">新房整装</a>
+                                <ul class="nav_ul_inner">
+                                    <li><a href="#">新房整装</a></li>
+                                    <li><a href="#">新房整装</a></li>
+                                    <li><a href="#">新房整装</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="zwc.html" id="a_3">老房改造</a>
+                                <ul class="nav_ul_inner">
+                                    <li><a href="#">老房改造</a></li>
+                                    <li><a href="#">老房改造</a></li>
+                                    <li><a href="#">老房改造</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" id="a_4">高清案例</a>
+                                <ul class="nav_ul_inner">
+                                    <li><a href="#">高清案例</a></li>
+                                    <li><a href="#">高清案例</a></li>
+                                    <li><a href="#">高清案例</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" id="a_5">装修报价</a>
+                                <ul class="nav_ul_inner">
+                                    <li><a href="#">装修报价</a></li>
+                                    <li><a href="#">装修报价</a></li>
+                                    <li><a href="#">装修报价</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" id="a_6">VR体验馆</a>
+                                <ul class="nav_ul_inner">
+                                    <li><a href="#">VR体验馆</a></li>
+                                    <li><a href="#">VR体验馆</a></li>
+                                    <li><a href="#">VR体验馆</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" id="a_7">装修课堂</a>
+                                <ul class="nav_ul_inner">
+                                    <li><a href="#">装修课堂</a></li>
+                                    <li><a href="#">装修课堂</a></li>
+                                    <li><a href="#">装修课堂</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+            <!-- 服务流程 -->
+            <div class="znsever">
+                <div class="w">
+                    <ul>
+                        <li >
+                            <a id="sever1" href="javascript:void(0);">
+                                <img src="../zhangnan/images/fuwu2.png" alt="1">
+                                <span>网页预约</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a  id="sever2" href="javascript:void(0);">
+                                <img src="../zhangnan/images/fuwu3.png" alt="1">
+                                <span>上门量尺</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="sever3" href="javascript:void(0);">
+                                <img src="../zhangnan/images/fuwu4.png" alt="1">
+                                <span>到门店看方案</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="sever4" href="javascript:void(0);">
+                                <img src="../zhangnan/images/fuwu5.png" alt="1">
+                                <span>准备材料</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- 下一页按钮 -->
+                    <div class="znNextPage" id="znNextPage">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 第二页 -->
+        <div class="twoPage" id="twoPage">
+            <div id="design1">
+                <!-- 定义四条边款，鼠标移上去跑马 -->
+                <div id="borderTop"></div>
+                <div id="borderRight"></div>
+                <div id="borderBottom"></div>
+                <div id="borderLeft"></div>
+                <!-- 为中间插上一个家居图片 -->
+                <div id="design1Pic">
+                    <img src="../zhangnan/images/bg2.jpg" alt="1">
+                </div>
+                <!-- 为图片做些简单的描述 -->
+                <div class="introPic1" id="introPic1">
+                    <a href="javascript:void(0);">
+                        极简主义 现代简约
+                    </a>
+                </div>
+                <!-- 鼠标停留在图片内滑落详情介绍 -->
+                <div id="introWord1">
+                    <p>
+                        现代简约风格饰品是所有家装风格中最不拘一格的一个。一些线条简单，设计独特甚至是极富创意和个性的饰品都可以成为现代简约风格家装中的一员。<br>现代人面临着城市的喧嚣和污染，激烈的竞争压力，还有忙碌的工作和紧张的生活。因而，更加向往清新自然、随意轻松的居室环境。越来越多的都城人开始摒弃繁缛豪华的装修，力求拥有一种自然简约的居室空间。
+                    </p>
+                </div>
+                <!-- 大图下的图片一，切换时会推上来 -->
+                <div id="slidePic1">
+                    <!-- 上拉图一的图片 -->
+                    <div id="page3Pic1">
+                        <img src="../zhangnan/images/nali_1.jpg" alt="图1">
+                    </div>
+                    <div id="page3Word1">
+                    <p>
+                        
+                                美式风格装修是如今大家多数人的选择，不同的元素和色调也能打造不同的效果,这套公寓的设计多重色调搭配沉稳不失活力，温馨又不乏品质感
+                            
+                    </p>
+                </div>
+                </div>
+            </div>
+            <div id="design2">
+            <!-- 定义四条边款，鼠标移上去跑马 -->
+                <div id="borderTop2"></div>
+                <div id="borderRight2"></div>
+                <div id="borderBottom2"></div>
+                <div id="borderLeft2"></div>
+                <!-- 中间插入一张图片 -->
+                <div id="design2Pic2">
+                    <img src="../zhangnan/images/bg1.jpg" alt="2">
+                </div>
+                 <!-- 为图片做些简单的描述 -->
+                <div class="introPic2" id="introPic2">
+                    <a href="javascript:void(0);">
+                        温馨浪漫
+                    </a>
+                </div>
+                <!-- 鼠标滑落详情介绍 -->
+                <div id="introWord2">
+                    <p>
+                        每个人对于家的定义不同，所以所定义的方向也有所不同。<br>在本案例中，设计师以温馨浪漫作为整个家居生活的理念，围绕现代简约式风格为主题，选择了轻质的格调，以此为轴，加上用古朴材质适时结合点缀，使整个家居空间生活温馨而舒适，浪漫而又时尚.
+                    </p>
+                </div>
+                <!-- 大图下的图片二，切换时会推上来 -->
+                <div id="slidePic2">
+                    <!-- 上拉图二的图片 -->
+                    <div id="page3Pic2">
+                        <img src="../zhangnan/images/nali_2.jpg" alt="图1">
+                    </div>
+                    <!-- 鼠标滑落详情介绍 -->
+                    <div id="page3Word2">
+                        <p>
+                            
+                                这是一套设计很具有时尚感的一套公寓，稳重的色彩外加圆润的线条让整个空间显得异常温馨，整体面积不大，但是经过改造，也不妨碍其成为典范之作。
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="design3">
+            <!-- 定义四条边款，鼠标移上去跑马 -->
+                <div id="borderTop3"></div>
+                <div id="borderRight3"></div>
+                <div id="borderBottom3"></div>
+                <div id="borderLeft3"></div>
+                <!-- 中间插入一张图片 -->
+                <div id="design3Pic3">
+                    <img src="../zhangnan/images/bg4.jpg" alt="2">
+                </div>
+                <!-- 为图片做简单的描述 -->
+                <div class="introPic3" id="introPic3">
+                    <a href="javascript:void(0);">
+                        混搭 新格调
+                    </a>
+                </div>
+                <!-- 鼠标滑落详情介绍 -->
+                <div id="introWord3">
+                    <p>
+                        混搭风格糅合东西方美学精华元素，将古今文化内涵完美地结合于一体，充分利用空间形式与材料，创造出个性化的家居环境;不拘泥于一种风格，根据自身喜好将不同风格，不同材质，不同身价的东西搭配在一起，从而混合搭配出完全个人化的风格.
+                    </p>
+                </div>
+                <!-- 进入下一页的按钮 -->
+                <div id="next3Page"></div>
+                <!-- 大图下的图片三，切换时会推上来 -->
+                <div id="slidePic3">
+                    <!-- 上拉图三的图片 -->
+                    <div id="page3Pic3">
+                        <img src="../zhangnan/images/nali_3.jpg" alt="图1">
+                        <div id="next4Page">
+                            <a href="lc_second.html">ready go</a>
+                        </div>
+                    </div>
+                     <!-- 鼠标滑落详情介绍 -->
+                    <div id="page3Word3">
+                        <p>
+                            
+                                
+                                北欧淡雅的色彩和淡淡的木香仿佛喧闹都市中的宁静港湾，自然的搭配、雅致的色彩、不多的装饰无一不诉说着主人不持有的朴素生活观。多个中性色的应用微妙而丰富，且使用面积配
+                            
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
